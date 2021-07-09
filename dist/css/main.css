@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/* line 10, scss/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px; }
+
+/* line 15, scss/main.scss */
+body {
+  background: #f2f2f2; }
+
+/* line 20, scss/main.scss */
+.m-top-1 {
+  margin-top: 2.4rem; }
+
+/* line 24, scss/main.scss */
+.m-top-2 {
+  margin-top: 10rem; }
+
+/* line 28, scss/main.scss */
+.cards {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; }
+  /* line 35, scss/main.scss */
+  .cards .card {
+    padding: 5rem;
+    width: 20rem; }
+    /* line 39, scss/main.scss */
+    .cards .card-sedan {
+      background: #e38826;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; }
+      /* line 44, scss/main.scss */
+      .cards .card-sedan .btn {
+        color: #e38826; }
+        /* line 47, scss/main.scss */
+        .cards .card-sedan .btn:hover {
+          background: #e38826; }
+    /* line 53, scss/main.scss */
+    .cards .card-suv {
+      background: #006970; }
+      /* line 56, scss/main.scss */
+      .cards .card-suv .btn {
+        color: #006970; }
+        /* line 59, scss/main.scss */
+        .cards .card-suv .btn:hover {
+          background: #006970; }
+    /* line 65, scss/main.scss */
+    .cards .card-luxary {
+      background: #004241;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px; }
+      /* line 70, scss/main.scss */
+      .cards .card-luxary .btn {
+        color: #004241; }
+        /* line 73, scss/main.scss */
+        .cards .card-luxary .btn:hover {
+          background: #004241; }
+    /* line 78, scss/main.scss */
+    .cards .card .heading {
+      color: #f2f2f2;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      font-size: 4rem; }
+    /* line 85, scss/main.scss */
+    .cards .card .description {
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: rgba(255, 255, 255, 0.75); }
+    /* line 92, scss/main.scss */
+    .cards .card .btn {
+      background: #f2f2f2;
+      padding: 1.2rem 3.5rem;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 20px; }
+      /* line 99, scss/main.scss */
+      .cards .card .btn:hover {
+        cursor: pointer;
+        border: 1.5px #f2f2f2 solid;
+        color: rgba(255, 255, 255, 0.75); }
+
+@media (max-width: 750px) {
+  /* line 109, scss/main.scss */
+  .cards {
+    flex-direction: column;
+    justify-content: flex-start; }
+    /* line 114, scss/main.scss */
+    .cards .card-sedan {
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 2rem; }
+    /* line 120, scss/main.scss */
+    .cards .card-luxary {
+      border-bottom-left-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+      border-top-right-radius: 0; } }
