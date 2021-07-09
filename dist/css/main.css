@@ -28,7 +28,8 @@ body {
   /* line 35, scss/main.scss */
   .cards .card {
     padding: 5rem;
-    width: 20rem; }
+    width: 20rem;
+    height: 40rem; }
     /* line 39, scss/main.scss */
     .cards .card-sedan {
       background: #e38826;
