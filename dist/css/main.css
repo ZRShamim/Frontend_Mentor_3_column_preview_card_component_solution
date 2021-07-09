@@ -73,31 +73,32 @@ body {
       font-family: 'Lexend Deca', sans-serif;
       font-weight: 400;
       font-size: 1.5rem;
-      color: rgba(255, 255, 255, 0.75); }
-    /* line 93, scss/main.scss */
+      color: rgba(255, 255, 255, 0.75);
+      height: 100px; }
+    /* line 94, scss/main.scss */
     .cards .card .btn {
       background: #f2f2f2;
       padding: 1.2rem 3.5rem;
       font-size: 1.5rem;
       border: none;
       border-radius: 20px; }
-      /* line 100, scss/main.scss */
+      /* line 101, scss/main.scss */
       .cards .card .btn:hover {
         cursor: pointer;
         border: 1.5px #f2f2f2 solid;
         color: rgba(255, 255, 255, 0.75); }
 
 @media (max-width: 750px) {
-  /* line 110, scss/main.scss */
+  /* line 111, scss/main.scss */
   .cards {
     flex-direction: column;
     justify-content: flex-start; }
-    /* line 115, scss/main.scss */
+    /* line 116, scss/main.scss */
     .cards .card-sedan {
       border-top-left-radius: 2rem;
       border-bottom-left-radius: 0;
       border-top-right-radius: 2rem; }
-    /* line 121, scss/main.scss */
+    /* line 122, scss/main.scss */
     .cards .card-luxary {
       border-bottom-left-radius: 2rem;
       border-bottom-right-radius: 2rem;
